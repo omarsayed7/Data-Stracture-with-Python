@@ -1,5 +1,4 @@
 # Data Stracture with Python
-* Array
 * Linked List
 * Stack
 * Queue
