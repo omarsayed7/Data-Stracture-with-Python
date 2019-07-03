@@ -62,6 +62,22 @@ class LinkedList(object):
             self.head = current_node.nextNode
         else :
             previous_node.nextNode = current_node.nextNode
+# method for searching in the linked list by the value of the needed node
+    def search(self,data):
+        current_node = self.head
+        print(current_node.data,data)
+        while current_node.data != data :
+            current_node = current_node.nextNode
+
+        if current_node.data != data :
+            return "Given item doesn't exist"
+        else :
+            if current_node.data == data and current_node.nextNode is None :
+                return current_node.data , current_node.nextNode
+            elif current_node.data == data and current_node.nextNode is not  None:
+                return current_node.data , current_node.nextNode.data
+
+
 
 if __name__ == '__main__':
     linkedlist = LinkedList() # start a linked List
@@ -82,3 +98,6 @@ if __name__ == '__main__':
 
     size = linkedlist.size()
     print('size after removing:',size)
+
+    node = linkedlist.search(90)
+    print(node)
