@@ -1,4 +1,9 @@
-# Deep-Learning-Specialization-Coursera
-
-* This repository contains the programming assignments of Deep Learning Specialization 
- 
+# Data Stracture with Python
+* Array
+* Linked List
+* Stack
+* Queue
+* Deqeue
+* Advanced Linked List
+* Hash Table
+* Heaps
