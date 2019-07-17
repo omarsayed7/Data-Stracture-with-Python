@@ -5,20 +5,20 @@ This is my repository for Data Structures using Python.
 
 # Linked List
 
-* [Singly Linked Lists](LinkedList\Linked_list.py)
+* [Singly Linked Lists](LinkedList/Linked_list.py)
 * [Circularly Linked Lists]()
 * [Doubly Linked Lists]()
 * [Reversing the linked list]()
 
 # Stack
 
-* [The Stack Abstract Data Type](Stack\Stack.py)
+* [The Stack Abstract Data Type](Stack/Stack.py)
 * [Reversing Data Using a Stack]()
 * [Matching Parentheses]()
 
 # Queue
 
-* [The Queue Abstract Data Type](Queue\Queue.py)
+* [The Queue Abstract Data Type](Queue/Queue.py)
 * [Implementing a Queue with Linked List]()
 * [Double-Ended Queues(Deque)]()
 * [Implementing a Deque with a Doubly Linked List]()
