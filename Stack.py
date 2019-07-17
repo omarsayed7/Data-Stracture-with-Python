@@ -27,7 +27,7 @@ class Stack:
         '''
         delete the last item added in the stack
         then
-        return the item been deleted
+        return the item has been deleted
         '''
         data = self.stack[-1]
         del self.stack[-1]
