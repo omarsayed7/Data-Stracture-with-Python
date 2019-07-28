@@ -12,11 +12,13 @@ if __name__ == '__main__':
     file =  open('data_to_reverse.txt','r')
     for line in file :
         for word in line.split():
-            print(word)
-
+            for char in word :
+                new_stack.push(char)
+            new_stack.push(' ')
         new_stack.push('\n')
     file.close()
+
     output = open('data_after_reverse.txt','w')
     while not new_stack.isEmpty():
-        output.write(new_stack.pop()+'\n')
+        output.write(new_stack.pop())
     output.close()
