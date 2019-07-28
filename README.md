@@ -13,8 +13,8 @@ This is my repository for Data Structures using Python.
 # Stack
 
 * [The Stack Abstract Data Type](Stack/Stack.py)
-* [Reversing Data Using a Stack]()
-* [Matching Parentheses]()
+* [Reversing Data Using a Stack](Stack/reverse.py)
+* [Matching Parentheses](Stack/matching_parentheses.py)
 
 # Queue
 

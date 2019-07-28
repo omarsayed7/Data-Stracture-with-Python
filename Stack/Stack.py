@@ -9,19 +9,19 @@ class Stack:
             4-isEmpty
             5-sizeof
         '''
-        self.stack = []
+        self._stack = []
 
     def isEmpty(self):
         '''
         return true if the stack is empty
         '''
-        return self.stack == []
+        return self._stack == []
 
     def push(self,data):
         '''
         push new item into the stack
         '''
-        self.stack.append(data)
+        self._stack.append(data)
 
     def pop(self):
         '''
@@ -29,21 +29,21 @@ class Stack:
         then
         return the item has been deleted
         '''
-        data = self.stack[-1]
-        del self.stack[-1]
+        data = self._stack[-1]
+        del self._stack[-1]
         return data
 
     def peek(self):
         '''
         return the last item added in the stack
         '''
-        return self.stack[-1]
+        return self._stack[-1]
 
     def sizeof(self):
         '''
         return the size of the stack
         '''
-        return len(self.stack)
+        return len(self._stack)
 
 
 if __name__ == '__main__':
