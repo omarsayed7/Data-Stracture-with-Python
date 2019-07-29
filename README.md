@@ -6,9 +6,9 @@ This is my repository for Data Structures using Python.
 # Linked List
 
 * [Singly Linked Lists](LinkedList/Linked_list.py)
-* [Circularly Linked Lists]()
-* [Doubly Linked Lists]()
-* [Reversing the linked list]()
+* [Circularly Linked Lists](LinkedList/CircleLinkedList.py)
+* [Doubly Linked Lists](LinkedList/DoubleLinkedList.py)
+* [Reversing the linked list](LinkedList/ReverseLinkedList.py)
 
 # Stack
 
